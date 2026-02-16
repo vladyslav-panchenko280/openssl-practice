@@ -1,5 +1,6 @@
 # openssl-practice
-Hands-on OpenSSL exercises for certificate management, PKI basics, and crypto workflows. Includes CSR creation, validation checks (OCSP/CRL), self-signed certs, and automation tools.
+
+Interactive Jupyter notebook with hands-on OpenSSL exercises for learning cryptographic fundamentals. Master RSA key generation, message encryption/decryption, and asymmetric cryptography basics. Export to PDF, DOCX, or HTML.
 
 ## Running the Jupyter Notebook
 
@@ -31,6 +32,18 @@ Hands-on OpenSSL exercises for certificate management, PKI basics, and crypto wo
    ```bash
    pip install jupyter ipykernel
    ```
+
+## Notebook Contents
+
+The notebook covers the following topics:
+
+1. OpenSSL Installation - Install OpenSSL on macOS
+2. RSA Key Generation - Generate 2048-bit private keys
+3. Key Inspection - Examine private key components (modulus, exponents, primes)
+4. Public Key Extraction - Derive public keys from private keys
+5. Message Encryption - Encrypt messages using public key cryptography
+6. Message Decryption - Decrypt messages using private keys
+7. Verification - Validate encryption/decryption workflow
 
 ### Running the Notebook
 
